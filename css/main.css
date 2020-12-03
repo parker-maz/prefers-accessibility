@@ -63,5 +63,20 @@ html {
 
 /* stylelint-disable media-feature-name-no-unknown */
 
+@media (prefers-color-scheme: dark) {
+
+  main {
+    background-color: #111;
+  }
+
+}
+
+@media (prefers-reduced-motion) {
+
+  .gear {
+    animation: none;
+  }
+
+}
 
 /* stylelint-enable */
